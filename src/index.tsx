@@ -21,7 +21,7 @@ const CosUpload = NativeModules.CosUpload
 //   return CosUpload.multiply(a, b);
 // }
 
-interface ITempSecretInfo {
+export interface ITempSecretInfo {
   tmpSecretId: string;
   tmpSecretKey: string;
   sessionToken: string;
