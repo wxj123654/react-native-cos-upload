@@ -62,7 +62,9 @@ dependencies {
   // For < 0.71, this will be from the local maven repo
   // For > 0.71, this will be replaced by `com.facebook.react:react-android:$version` by react gradle plugin
   //noinspection GradleDynamicVersion
-  implementation "com.facebook.react:react-native"
+  implementation 'com.facebook.react:react-native'
+  implementation 'com.qcloud.cos:cos-android:5.9.+'
+  implementation 'org.jetbrains:annotations:15.0'// cos模块
 }
 
 if (isNewArchitectureEnabled()) {
