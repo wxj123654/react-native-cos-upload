@@ -10,13 +10,7 @@ npm install react-native-cos-upload
 
 ## Usage
 
-```js
-import { multiply } from 'react-native-cos-upload';
-
-// ...
-
-const result = await multiply(3, 7);
-```
+see example
 
 ## Contributing
 
